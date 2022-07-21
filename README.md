@@ -2,12 +2,16 @@
 ## Bewl
 A new programing language to code with, easy to use
 
+## Disclaimer
+This project is changed from JS to Python, so please make sure you update to the newest stable version.
+
+We are not support the older version anymore. (the JS version)
 
 ## Acknowledgements
 
  - [Installtion](#installation)
  - [Functions](#functions)
- - [Authors](#author)
+ - [Authors](#authors)
 
 
 ## Installation
@@ -19,7 +23,7 @@ You can install in other plastforms such as visual studio code or glitch.com.
 ```bash
   git clone https://github.com/zerealone/Bewl.git
   cd Bewl
-  node index.js
+  python3 shell.py
 ```
 
 #### If you are on replit, do this :
@@ -28,21 +32,37 @@ You can install in other plastforms such as visual studio code or glitch.com.
 - Click on "Import from github"
 - In the github url, put this : `https://github.com/zerealone/Bewl.git`
 - Click on "Import from github" again
-- In the configuration, choose `NodeJS` as the language and `node index.js` as the start command.
+- In the configuration, choose `Python` as the language and `python3 shell.py` as the start command.
 
 #### Finally, run the project
 After all of this steps you can run the project.
-The code **must** to be in the file called `index.bewl` in the directory.
+
 ## Functions
 
-#### log " "
-logs the text that in the brackets into the console. 
+- Input : `-5` ,Output : `-5`
 
-Example :
-```bewl
-log "Hello world"
-```
-## Author
+- Input : `--5` ,Output : `5`
 
-- [@zerealone](https://www.github.com/zerealone)
-- [@orielhaim](https://www.github.com/orielhaim)
+- Input : `5 + (2 * 2)` ,Output : `9`
+
+- Input : `10==10 AND 5==5` ,Output : `1 (true)`
+
+- Input : `10==9 5==4` ,Output : `0 (false)`
+
+- Input : `5==3 OR 1>0` ,Output : `1 (true)`
+
+## What will be added next?
+- If functions, else and endif
+- print function
+- more variables type
+- file of the code, and not in the console
+- more other things
+
+## Support
+Need any help and things?
+[Mail me](mailto:zerealone.business@gmail.com)
+
+## Authors
+
+- Main Developer : [@zerealone](https://www.github.com/zerealone)
+- Helper Developer : [@orielhaim](https://www.github.com/orielhaim)
