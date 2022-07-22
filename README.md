@@ -23,7 +23,7 @@ You can install in other plastforms such as visual studio code or glitch.com.
 ```bash
   git clone https://github.com/zerealone/Bewl.git
   cd Bewl
-  python3 shell.py
+  python3 main.py
 ```
 
 #### If you are on replit, do this :
@@ -32,7 +32,7 @@ You can install in other plastforms such as visual studio code or glitch.com.
 - Click on "Import from github"
 - In the github url, put this : `https://github.com/zerealone/Bewl.git`
 - Click on "Import from github" again
-- In the configuration, choose `Python` as the language and `python3 shell.py` as the start command.
+- In the configuration, choose `Python` as the language and `python3 main.py` as the start command.
 
 #### Finally, run the project
 After all of this steps you can run the project.
